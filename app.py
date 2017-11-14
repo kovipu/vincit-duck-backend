@@ -74,4 +74,4 @@ def get_species():
     pass
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=8081)
