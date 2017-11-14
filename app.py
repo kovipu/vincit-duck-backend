@@ -61,8 +61,16 @@ sightings = [
     }
 ]
 
-@app.route("/sightings")
-def getSightings():
+@app.route("/sightings", methods=["GET"])
+def get_sightings():
+    pass
+
+@app.route("/sightings", methods=["POST"])
+def new_sighting(hmm):
+    pass
+
+@app.route("/species", methods=["GET"])
+def get_species():
     pass
 
 if __name__ == "__main__":
